@@ -1,0 +1,120 @@
+<!-- toujours commencer une page html comme ça-->
+
+<!DOCTYPE html>
+
+<html lang="fr">
+
+    <head>
+
+        <title> Recette </title>
+        <!-- balise pour formater les caractères-->
+        <!-- #categorie fonctionnerait aussi pour tous les paragraphes/listes/... qui utilisent l'id ou la class catégorie -->
+        <meta charset="UTF-8">
+        <!-- lien vers css -->
+        <link rel="stylesheet" href="recette.css"/>
+
+    </head>
+
+    <body>
+
+        <div class="contenu">
+        
+            <div class="centrer catégorie">
+                <p class="catégorie"> Recette </p>
+            </div>
+
+            <h1> Gâteau au chocolat - the best ever </h1>
+
+            <div class="separateur">
+            </div>
+
+            <div class="centrer">
+                <p class="description"> "Cette recette éculée prend une saveur particulière en cette occasion. Aussi, en l'honneur de mon premier site en mode stylé, je propose de la revisiter, façon Rocky." </p>
+            </div>
+
+            <br>
+
+            <div class="info">
+
+                <img class="centrer info" src="gateau au choc.jpg">
+
+                <table border="0" class="info">
+                    <tr> 
+                        <th> Difficulté </th>
+                        <th> Préparation </th>
+                        <th> Cuisson </th>
+                        <th> Temps total </th>
+                    </tr>
+                    
+                    <tr> 
+                        <td> Facile </td>
+                        <td> 10mn </td>
+                        <td> 40mn </td>
+                        <td> 50mn </td>
+                    </tr>
+                </table>
+            </div>
+            
+            <div>
+                <div class="colonne1 colonne">
+                    <h2> Ingrédients </h2>
+
+                    <!-- liste avec puces
+                        <ul>
+                            <li> 4 oeufs</li>
+                            <li> 400g de farine</li>
+                            <li> 200g de beurre</li>
+                            <li> 50mL de lait</li>
+                            <li> 1 tablette de chocolat noir</li>
+                        </ul>
+                    -->
+                    <div class="table1">
+                        <p> 4 oeufs</p>
+                        <p> 400g de farine</p>
+                        <p> 200g de beurre</p>
+                        <p> 50mL de lait</p>
+                        <p> 1 tablette de chocolat noir</p>
+                    </div>
+
+                </div>
+            
+
+                <div class="colonne2 colonne">
+                    <h2> Préparation </h2>
+
+                    <!-- liste avec numéros   
+                        <ol>
+                            <li> verser la farine dans un saladier</li>
+                            <li> faire un puit dans la farine et y verser le beurre fondu ainsi que le lait</li>
+                            <li> bien malaxer</li>
+                            <li> rajouter le chocolat fondu</li>
+                            <li> déguster</li>
+                        </ol>
+                    --> 
+                        <table class="table2">
+                            <tr>
+                                <td> <p class="numero"> 1 </p> </td>
+                                <td class="table2_etape"> verser la farine dans un saladier </td>
+                            </tr>
+                            <tr>
+                                <td> <p class="numero"> 2 </p> </td>
+                                <td class="table2_etape"> faire un puit dans la farine et y verser le beurre fondu ainsi que le lait </td>
+                            </tr>
+                            <tr>
+                                <td> <p class="numero"> 3 </p> </td>
+                                <td class="table2_etape"> bien malaxer </td>
+                            </tr>
+                            <tr>
+                                <td> <p class="numero"> 4 </p> </td>
+                                <td class="table2_etape"> rajouter le chocolat fondu </td>
+                            </tr>
+                            <tr>
+                                <td> <p class="numero">5 </p> </td>
+                                <td class="table2_etape"> déguster </td>
+                            </tr>
+                        </table>
+                </div>            
+            </div>
+        </div>
+    </body>
+</html>
